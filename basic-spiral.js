@@ -6,7 +6,6 @@ var arr = [
   [21, 22, 23, 24, 25],
 ];
 function showSpiral(array) {
-  let resp = "";
   let dir = true;
   for (let i = 0; i < array.length; i++) {
     for (let j = 0; j < array[i].length; j++) {
